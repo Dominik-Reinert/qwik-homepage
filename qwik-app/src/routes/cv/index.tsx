@@ -33,6 +33,16 @@ export default component$(() => {
                         <dd>Technical design and implementation of high availability services.</dd>
                     </dl>
                 </dd>
+                <dt><Button text="Felten group" variant="unstyled" href="https://www.felten-group.com/de/" target="_blank" icon="link" /></dt>
+                <dd>Manufacturing execution system
+                    <dl>
+                        <dt>Professional services (Apr. 2017 - Nov. 2017)</dt>
+                        <dd>Development of customer specific requirements.</dd>
+
+                        <dt>Junior Java software developer (Okt. 2015 - Apr. 2017)</dt>
+                        <dd>Design and Implementation of a mobile task management application for use in tandem with industrial software.</dd>
+                    </dl>
+                </dd>
             </dl>
         </div>
     );
