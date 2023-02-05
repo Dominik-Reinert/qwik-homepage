@@ -1,6 +1,6 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import { DocumentHead } from "@builder.io/qwik-city";
-import styles from "./cv.css?inline";
+import styles from "./index.css?inline";
 
 export const head: DocumentHead = {
   title: "CV",
@@ -9,42 +9,23 @@ export const head: DocumentHead = {
 export default component$(() => {
   useStylesScoped$(styles);
   return (
-    <div>
-      <h1>CV</h1>
-      <h2>Welcome</h2>
-      <p>
-        To my personal homepage! This page was build with Qwik, a new frontend
-        framework, that will make my homepage crazy fast to load!
-      </p>
-      <div class="page-divider">
-        <div class="page-divider__left">
-          <h2>Personal details</h2>
-            <dl>
-              <dt>Name</dt>
-              <dd>Dominik Reinert</dd>
-
-              <dt>Address</dt>
-              <dd>Am Jungenwäldchen 8, 66663 Merzig</dd>
-
-              <dt>Email</dt>
-              <dd>dore250393@gmail.com</dd>
-            </dl>
+    <div class="page-wrapper">
+        <div class="background">
+            <div class="background__left" />
+            <div class="background__right" />
         </div>
-        <div class="page-divider__right">
-          <h2>Work experience</h2>
-            <dl>
-              <dt>Famly</dt>
-              <dd>Frontend engineer II</dd>
-              <dd>Planning and implementation of features on the Famly platform. Main focus: Staffing and attendance</dd>
-
-              <dt>Address</dt>
-              <dd>Am Jungenwäldchen 8, 66663 Merzig</dd>
-
-              <dt>Email</dt>
-              <dd>dore250393@gmail.com</dd>
-            </dl>
-        </div>
-      </div>
+        <main>
+            <div class="business-card__left">
+                <div class="business-card__left__profile-logo">
+                    <img class="logo" src="/profile-logo.jpg" />
+                </div>
+                <h1 class="business-card__left__name">Dominik Reinert</h1>
+                <span class="business-card__left__separator" />
+                <h2 class="business-card__left__position">Senior software engineer</h2>
+                <div class="business-card__left__social-buttons"> linked in github</div>
+            </div>
+            <div class="business-card__right">Hallo</div>
+        </main>
     </div>
   );
 });

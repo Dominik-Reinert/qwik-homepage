@@ -1,0 +1,67 @@
+.page-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.background__right {
+    flex: 24;
+}
+
+.background__left {
+    flex: 18;
+    background-color: var(--secondary);
+}
+
+main {
+    display: flex;
+    position: absolute;
+    top: calc(50% - (var(--business-card-main-height) / 2));
+    right: calc(50% - (var(--business-card-main-width) / 2));
+
+    -webkit-box-shadow: -3px 6px 10px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: -3px 6px 10px 5px rgba(0, 0, 0, 0.25);
+
+    min-width: var(--business-card-main-width);
+    min-height: var(--business-card-main-height);
+}
+
+.business-card__left {
+    flex: 12;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--secondary-light);
+
+    padding: 16px;
+}
+
+.business-card__left>* {
+    text-align: center;
+}
+
+.business-card__left__separator {
+    margin: 8px auto;
+    width: 40%;
+
+    border-bottom: 4px solid var(--primary);
+}
+
+.business-card__right {
+    flex: 24;
+
+    padding: 16px;
+}
+
+.logo {
+    clip-path: circle(80px at center);
+    width: 180px;
+    height: 180px;
+}
