@@ -1,0 +1,31 @@
+.page-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.background__right {
+    flex: 24;
+}
+
+.background__left {
+    flex: 18;
+    background-color: var(--secondary);
+}
+
+main {
+    display: flex;
+    position: absolute;
+    top: calc(50% - (var(--business-card-main-height) / 2));
+    left: calc(50% - (var(--business-card-main-width) / 2));
+
+    max-width: var(--business-card-main-width);
+    min-width: var(--business-card-main-width);
+    min-height: var(--business-card-main-height);
+}
