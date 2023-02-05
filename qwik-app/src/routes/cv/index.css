@@ -69,16 +69,37 @@ main {
 }
 
 .business-card__left__social-buttons {
+    display: flex;
     margin: auto;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 12px;
 
     flex: 6;
     background-color: var(--global-background);
     width: 100%;
 }
 
+.business-card__left__social-button {
+    width: 30px;
+    height: 30px;
+    object-fit: conver;
+
+    cursor: pointer;
+}
+
+
+.business-card__left__social-button>img {
+    width: 100%;
+    height: 100%;
+}
+
 .business-card__right {
     flex: 24;
 }
+
 
 .logo {
     clip-path: circle(120px at center);
