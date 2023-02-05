@@ -1,0 +1,101 @@
+.business-card__left {
+    flex: 18;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--secondary-light);
+    padding-top: 16px;
+
+    box-shadow: rgba(138, 131, 124, 0.23) -11.31px 11.31px 17px 0px;
+}
+
+.business-card__left__profile-logo,
+.business-card__left__name,
+.business-card__left__position {
+    text-align: center;
+
+    padding: 0 16px;
+
+    flex: 12;
+}
+
+.business-card__left__name,
+.business-card__left__position {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.business-card__left__separator {
+    margin: 0 auto 8px;
+    width: 40%;
+
+    border-bottom: 4px solid var(--primary);
+}
+
+.business-card__left__social-buttons {
+    display: flex;
+    margin: auto;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    flex: 6;
+    background-color: var(--global-background);
+    width: 100%;
+}
+
+.business-card__left__social-button {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+
+    cursor: pointer;
+}
+
+
+.business-card__left__social-button>img {
+    width: 100%;
+    height: 100%;
+}
+
+.business-card__right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 24;
+
+    background-color: var(--global-background);
+
+    padding: 16px;
+
+    text-align: center;
+}
+
+.business-card__right h1 {
+    font-size: 5em;
+}
+
+.business-card__right h2 {
+    font-size: 2em;
+}
+
+.business-card__right p {
+    font-size: 1.2em;
+}
+
+.business-card__right p.navigation-buttons {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.logo {
+    clip-path: circle(120px at center);
+    width: 250px;
+    height: 250px;
+}
