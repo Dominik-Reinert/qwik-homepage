@@ -40,15 +40,13 @@ export default component$(() => {
           <h2>Wer ich bin &amp; was ich mache</h2>
           <p class="navigation-buttons">
             <Button text="Lebenslauf" variant="primary" />
-            <Button text="Projekt" variant="secondary" />
+            <Button text="Projekte" variant="secondary" />
           </p>
           <p class="text">
             Ich bin ein Textabschnitt. Klicken Sie hier, um einen Text hinzuzufügen und mich zu bearbeiten. Klicken Sie auf „Text bearbeiten“ oder doppelklicken Sie, um loszulegen.
           </p>
           <p class="text">
-            <span>
-              Dies ist der ideale Ort, um einen langen Text über Ihr Unternehmen zu schreiben
-            </span>
+            Dies ist der ideale Ort, um einen langen Text über Ihr Unternehmen zu schreiben
           </p>
         </div>
       </main>

@@ -116,18 +116,15 @@ main {
     font-size: 2em;
 }
 
+.business-card__right p {
+    font-size: 1.2em;
+}
+
 .business-card__right p.navigation-buttons {
     display: flex;
     gap: 32px;
     justify-content: center;
-    font-size: 1.2em;
 }
-
-.business-card__right p.text {
-    font-size: 1.2em;
-}
-
-
 
 .logo {
     clip-path: circle(120px at center);
