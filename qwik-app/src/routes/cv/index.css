@@ -23,8 +23,9 @@ main {
     display: flex;
     position: absolute;
     top: calc(50% - (var(--business-card-main-height) / 2));
-    right: calc(50% - (var(--business-card-main-width) / 2));
+    left: calc(50% - (var(--business-card-main-width) / 2));
 
+    max-width: var(--business-card-main-width);
     min-width: var(--business-card-main-width);
     min-height: var(--business-card-main-height);
 }
@@ -38,9 +39,7 @@ main {
     background-color: var(--secondary-light);
     padding-top: 16px;
 
-    -webkit-box-shadow: -3px 6px 10px 5px rgba(0, 0, 0, 0.25);
-    box-shadow: -3px 6px 10px 5px rgba(0, 0, 0, 0.25);
-    clip-path: inset(-100px 0px -100px -100px);
+    box-shadow: rgba(138, 131, 124, 0.23) -11.31px 11.31px 17px 0px;
 }
 
 .business-card__left__profile-logo,
@@ -85,7 +84,7 @@ main {
 .business-card__left__social-button {
     width: 30px;
     height: 30px;
-    object-fit: conver;
+    object-fit: cover;
 
     cursor: pointer;
 }
@@ -97,8 +96,37 @@ main {
 }
 
 .business-card__right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     flex: 24;
+
+    background-color: var(--global-background);
+
+    padding: 16px;
+
+    text-align: center;
 }
+
+.business-card__right h1 {
+    font-size: 5em;
+}
+
+.business-card__right h2 {
+    font-size: 2em;
+}
+
+.business-card__right p.navigation-buttons {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.business-card__right p.text {
+    font-size: 1.2em;
+}
+
 
 
 .logo {

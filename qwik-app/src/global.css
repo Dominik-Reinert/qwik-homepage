@@ -28,6 +28,18 @@ body {
   margin: 0;
 }
 
+/* clear styles */
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+/* qwik styles */
+
 h1,
 h2 {
   margin: 0 0 5px 0;

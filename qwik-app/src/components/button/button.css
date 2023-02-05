@@ -1,0 +1,21 @@
+button {
+    font-size: 1em;
+    font-weight: bold;
+
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+button.primary {
+    color: var(--global-background);
+    background-color: var(--primary);
+
+    border: 1.5px solid var(--primary);
+}
+
+button.secondary {
+    background-color: var(--global-background);
+    color: var(--text);
+
+    border: 1.5px solid var(--text);
+}
