@@ -4,9 +4,13 @@ header {
   border-bottom: 10px solid var(--qwik-dark-purple);
 }
 
-header .logo a {
+header .logo {
   display: inline-block;
   padding: 10px 10px 7px 20px;
+  
+  clip-path: circle(40px at center);
+  width: 100px;
+  height: 100px;
 }
 
 header ul {

@@ -19,7 +19,6 @@ export default component$(() => {
       <div class="page-divider">
         <div class="page-divider__left">
           <h2>Personal details</h2>
-          <p>
             <dl>
               <dt>Name</dt>
               <dd>Dominik Reinert</dd>
@@ -30,11 +29,9 @@ export default component$(() => {
               <dt>Email</dt>
               <dd>dore250393@gmail.com</dd>
             </dl>
-          </p>
         </div>
         <div class="page-divider__right">
           <h2>Work experience</h2>
-          <p>
             <dl>
               <dt>Famly</dt>
               <dd>Frontend engineer II</dd>
@@ -46,7 +43,6 @@ export default component$(() => {
               <dt>Email</dt>
               <dd>dore250393@gmail.com</dd>
             </dl>
-          </p>
         </div>
       </div>
     </div>
