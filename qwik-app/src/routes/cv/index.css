@@ -33,31 +33,42 @@ main {
 }
 
 .business-card__left {
-    flex: 12;
+    flex: 18;
 
     display: flex;
     flex-direction: column;
 
     background-color: var(--secondary-light);
-
-    padding: 16px;
+    padding-top: 16px;
 }
 
-.business-card__left>* {
+.business-card__left__profile-logo,
+.business-card__left__name,
+.business-card__left__position {
     text-align: center;
+
+    padding: 0 16px;
+
+    flex: 12;
 }
 
 .business-card__left__separator {
-    margin: 8px auto;
+    margin: 0 auto 8px;
     width: 40%;
 
     border-bottom: 4px solid var(--primary);
 }
 
+.business-card__left__social-buttons {
+    margin: auto;
+
+    flex: 3;
+    background-color: var(--global-background);
+    width: 100%;
+}
+
 .business-card__right {
     flex: 24;
-
-    padding: 16px;
 }
 
 .logo {

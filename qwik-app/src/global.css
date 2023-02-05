@@ -7,14 +7,14 @@
  */
 
 :root {
-  --primary: #fdb44b;
+  --primary: #edb5f5;
   --text: #00104a;
-  --secondary: #007792;
-  --secondary-light: #00ccf0;
+  --secondary: #b1e8ed;
+  --secondary-light: #e6f8f9;
   --global-background: #fafafa;
-  
-  --business-card-main-width: 750px;
-  --business-card-main-height: 450px;
+
+  --business-card-main-width: 850px;
+  --business-card-main-height: 550px;
 }
 
 
