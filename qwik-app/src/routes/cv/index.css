@@ -42,7 +42,7 @@
     justify-content: center;
     align-items: center;
 
-    gap: 12px;
+    gap: 20px;
 
     flex: 6;
     background-color: var(--global-background);
@@ -50,8 +50,8 @@
 }
 
 .business-card__left__social-button {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     object-fit: cover;
 
     cursor: pointer;

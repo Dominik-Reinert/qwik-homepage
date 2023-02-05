@@ -20,10 +20,10 @@ export default component$(() => {
         <h2 class="business-card__left__position">Senior software engineer</h2>
         <div class="business-card__left__social-buttons">
           <a class="business-card__left__social-button" href="https://www.linkedin.com/in/dominik-reinert/" target="_blank">
-            <img alt="LinkedIn" src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ea5b4a88f0b4f91945b40499aa0af00.png" />
+            <img alt="LinkedIn" src="/linkedin.png" />
           </a>
           <a class="business-card__left__social-button" href="https://www.instagram.com/domad.28/" target="_blank">
-            <img alt="Instagram" src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/01c3aff52f2a4dffa526d7a9843d46ea.png" />
+            <img alt="Instagram" src="/instagram.png" />
           </a>
           <a class="business-card__left__social-button" href="https://github.com/Dominik-Reinert/" target="_blank">
             <img alt="Github" src="/github-mark.png" />
