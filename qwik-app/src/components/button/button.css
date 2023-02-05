@@ -21,3 +21,12 @@ button.secondary {
 
     border: 1.5px solid var(--text);
 }
+
+button.unstyled {
+    background-color: var(--global-background);
+    color: var(--text);
+}
+
+button img {
+    padding-left: 8px;
+}
